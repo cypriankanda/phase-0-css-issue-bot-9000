@@ -1,11 +1,10 @@
 body {
-  background-color: pink;
+  background: pink; /* Fix: Changed from background-color to background */
 }
-
 
 h1 {
   color: blue;
-  font-size: 3em;
+  font-size: 3em; /* Correct property */
 }
 
 h2 {
@@ -15,9 +14,10 @@ h2 {
 }
 
 .completed {
-  font-size: 12px;
+  font-size: 12px; /* Use font-size instead of font-family */
 }
 
 #tasks .completed {
-  background-color: #ccc;
+  background: #ccc; /* Fix: Changed from background-color to background */
+  text-decoration: underline;
 }
